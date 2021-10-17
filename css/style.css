@@ -2,8 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-h2 {
-    color: red;
+body {
+    background-color: #1e2d3b;
+}
+
+header {
+    background-color: #2e3a46;
+}
+
+.fab.fa-spotify{
+    color: #1cb64d;
+    font-size: 50px;
+    padding: 15px 25px;
+}
+
+section {
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.album-box{
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #2e3a46;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+img {
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    color: lightgray;
+    font-size: 0.9em;
+}
+
+span{
+    color: #6d7e8f;
 }

@@ -1,3 +1,5 @@
 <html>
-    <h2>HEADER</h2>
+    <header>
+        <i class="fab fa-spotify"></i>
+    </header>
 </html>
