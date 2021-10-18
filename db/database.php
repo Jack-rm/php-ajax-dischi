@@ -85,9 +85,9 @@ $records = [
 
 <?php
 
-// $recordsJson = file_get_contents('https://flynn.boolean.careers/exercises/api/array/music');
-// $recordsDecoded = json_decode($recordsJson);
+$recordsJson = file_get_contents('https://flynn.boolean.careers/exercises/api/array/music');
+$recordsDecoded = json_decode($recordsJson, true);
 
-// var_dump($recordsDecoded);
+var_dump($recordsDecoded);
 
 ?>

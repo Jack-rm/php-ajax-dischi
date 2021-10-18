@@ -1,6 +1,6 @@
 <section>
     <?php
-        foreach ($records as $album) { ;?>
+        foreach ($recordsDecoded['response'] as $album) { ;?>
             <div class="album-box">
                 <img src="<?php echo $album['poster']; ?>" alt="<?php echo $album['title']; ?>">
                 <ul>
